@@ -1,0 +1,26 @@
+{
+  "name": "json2docx-server",
+  "version": "1.0.0",
+  "description": "Standalone JSON to DOCX conversion service using docx-templates",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "pm2 start ecosystem.config.js",
+    "stop": "pm2 delete json2docx-server",
+    "test": "node tests/test.js",
+    "create-template": "node tests/create-template.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx-templates": "^4.11.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

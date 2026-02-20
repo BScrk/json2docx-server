@@ -1,0 +1,12 @@
+{
+  "clientName": "Jean Bonnot",
+  "company": "Bee Corp",
+  "email": "luca@BeeCorp.io",
+  "date": "February 20, 2016",
+  "projectName": "JSON2DOCX Microservice",
+  "version": "1.0.0",
+  "status": "In production",
+  "description": "Standalone DOCX document generation service from templates and JSON data. This microservice dynamically transforms Word templates into finalized documents via a simple REST API.",
+  "budget": "5,000",
+  "manager": "Jean Bonnot"
+}
