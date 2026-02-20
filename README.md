@@ -13,7 +13,7 @@ Built on [docx-templates](https://github.com/guigrpa/docx-templates).
 ## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/BScrk/json2docx-server
 cd json2docx-server-srv
 nvm use
 npm install
